@@ -1,0 +1,87 @@
+.container {
+  width: 550px;
+  height: 600px;
+  /* margin: 0 auto; */
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 10px;
+}
+.maximized {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.split-between {
+  justify-content: space-between;
+}
+
+.h-center {
+  align-items: center;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+  gap: 5px;
+}
+.message-title {
+  padding: 12px;
+  min-height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.message-body {
+  min-height: 400px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.message-footer {
+  padding: 5px 10px;
+  min-height: 50px;
+}
+
+.send-btn {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10000px;
+}
+
+.add-more-email-address {
+  margin-left: auto;
+}
+
+.input-email-address {
+  min-width: 80%;
+  outline: none;
+  border: none;
+  min-height: 30px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+textarea {
+  width: 100%;
+  height: 35vh;
+  outline: none;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  resize: none;
+}
+
+.additional-email:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

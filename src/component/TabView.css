@@ -1,0 +1,19 @@
+.tab-buttons {
+  display: flex;
+}
+
+.tab-buttons button {
+  padding: 10px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-buttons button.active {
+  border-bottom: 1px solid blue;
+  background-color: red;
+}
+
+.tab-content {
+  margin-top: 10px;
+}
